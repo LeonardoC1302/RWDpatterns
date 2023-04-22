@@ -37,5 +37,10 @@ h1 {
     font-weight: bold;
     text-transform: uppercase;
 }
-
-/** CODIGO AQUI **/
+@media (min-width: 768){
+    .three-columns {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2rem;
+    }
+}
